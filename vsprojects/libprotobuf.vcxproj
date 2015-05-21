@@ -181,7 +181,12 @@
     <ClCompile Include="..\src\google\protobuf\dynamic_message.cc" />
     <ClCompile Include="..\src\google\protobuf\extension_set.cc" />
     <ClCompile Include="..\src\google\protobuf\extension_set_heavy.cc" />
-    <ClCompile Include="..\src\google\protobuf\generated_message_reflection.cc" />
+    <ClCompile Include="..\src\google\protobuf\generated_message_reflection.cc">
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">TurnOffAllWarnings</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">TurnOffAllWarnings</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">TurnOffAllWarnings</WarningLevel>
+      <WarningLevel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">TurnOffAllWarnings</WarningLevel>
+    </ClCompile>
     <ClCompile Include="..\src\google\protobuf\generated_message_util.cc" />
     <ClCompile Include="..\src\google\protobuf\io\coded_stream.cc" />
     <ClCompile Include="..\src\google\protobuf\io\gzip_stream.cc" />
