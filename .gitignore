@@ -72,3 +72,9 @@ src/**/*.trs
 # JavaBuild output.
 java/target
 javanano/target
+
+# Visual Studio project files
+/vsprojects/Win32
+/vsprojects/x64
+/vsprojects/protobuf.sdf
+/vsprojects/protobuf.v12.suo
