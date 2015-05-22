@@ -202,7 +202,6 @@
     <ClCompile Include="..\src\google\protobuf\reflection_ops.cc" />
     <ClCompile Include="..\src\google\protobuf\repeated_field.cc" />
     <ClCompile Include="..\src\google\protobuf\service.cc" />
-    <ClCompile Include="..\src\google\protobuf\stubs\atomicops_internals_x86_gcc.cc" />
     <ClCompile Include="..\src\google\protobuf\stubs\atomicops_internals_x86_msvc.cc" />
     <ClCompile Include="..\src\google\protobuf\stubs\common.cc" />
     <ClCompile Include="..\src\google\protobuf\stubs\once.cc" />
