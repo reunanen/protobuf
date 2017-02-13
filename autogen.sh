@@ -19,10 +19,11 @@ fi
 # directory is set up as an SVN external.
 if test ! -e gtest; then
   echo "Google Test not present.  Fetching gtest-1.7.0 from the web..."
-  curl -O https://googletest.googlecode.com/files/gtest-1.7.0.zip
-  unzip -q gtest-1.7.0.zip
-  rm gtest-1.7.0.zip
-  mv gtest-1.7.0 gtest
+  curl -O https://codeload.github.com/google/googletest/zip/release-1.7.0
+  mv release-1.7.0 release-1.7.0.zip
+  unzip -q release-1.7.0.zip
+  rm release-1.7.0.zip
+  mv googletest-release-1.7.0 gtest
 fi
 
 set -ex
